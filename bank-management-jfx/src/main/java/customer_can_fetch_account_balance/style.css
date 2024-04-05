@@ -1,0 +1,50 @@
+/* style.css */
+
+#AnchorPane {
+    -fx-background-color: #f8f4ec; /* Background color for the entire AnchorPane */
+}
+
+.rectangle {
+    -fx-fill: #d53484; /* Fill color for the rectangles */
+    -fx-stroke: black; /* Stroke color for the rectangles */
+    -fx-stroke-type: inside; /* Stroke type for the rectangles */
+}
+
+#x1, #x2, #x3 {
+    -fx-font-size: 25.0; /* Font size for labels */
+}
+
+#x1 {
+    -fx-font-size: 35.0; /* Font size for the "Total Balance" label */
+}
+
+#x2, #x3 {
+    -fx-font-size: 25.0; /* Font size for buttons */
+    -fx-font-weight: bold; /* Bold font for buttons */
+}
+
+#balance, #customerId {
+    -fx-background-radius: 20; /* Rounded corners for text fields */
+    -fx-border-radius: 20; /* Rounded corners for text field borders */
+    -fx-prompt-text-fill: #9c9c9c; /* Prompt text color for text fields */
+    -fx-background-color: #ffffff; /* Background color for text fields */
+    -fx-border-color: #d53484; /* Border color for text fields */
+    -fx-border-width: 2; /* Border width for text fields */
+    -fx-effect: innershadow(gaussian, #d53484, 10, 0, 0, 0); /* Inner shadow effect for text fields */
+}
+
+#balance:hover, #customerId:hover {
+    -fx-background-color: #f2f2f2; /* Background color on text field hover */
+}
+
+#fetchBalance, #back {
+    -fx-background-radius: 20; /* Rounded corners for buttons */
+    -fx-border-radius: 20; /* Rounded corners for button borders */
+    -fx-background-color: #d53484; /* Default background color for buttons */
+    -fx-border-color: #171717; /* Default border color for buttons */
+}
+
+#fetchBalance:hover, #back:hover {
+    -fx-background-color: #ff87b9; /* Darker color on button hover */
+    -fx-text-fill: #171717; /* Text color on button hover */
+}

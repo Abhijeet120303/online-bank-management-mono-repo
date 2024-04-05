@@ -1,0 +1,59 @@
+/* style.css */
+
+#AnchorPane {
+    -fx-background-color: #f8f4ec; /* Background color for the entire AnchorPane */
+}
+
+.button {
+    -fx-background-radius: 20; /* Rounded corners for buttons */
+    -fx-background-color: #d63484; /* Default background color for buttons */
+    -fx-border-color: black; /* Default border color for buttons */
+    -fx-border-radius: 20;
+}
+
+.button:hover {
+    -fx-background-color: #131011; /* Darker color on button hover */
+}
+
+.text-field {
+    -fx-prompt-text-fill: #808080; /* Prompt text color for text fields */
+    -fx-background-color: #ffffff; /* Default background color for text fields */
+    -fx-border-color: #d63484; /* Default border color for text fields */
+    -fx-border-radius: 10; /* Rounded corners for text fields */
+}
+
+.text-field:hover {
+    -fx-background-color: #eaeaea; /* Background color for text fields on hover */
+    -fx-border-color: #5c4450; /* Border color for text fields on hover */
+}
+
+#addAccount,
+#back {
+    -fx-background-radius: 10; /* Rounded corners for the Add Account and Back buttons */
+    -fx-border-color: black; /* Default border color for the buttons */
+    -fx-background-color: #d63484; /* Default background color for the buttons */
+}
+
+#addAccount:hover,
+#back:hover {
+    -fx-background-color: #131011; /* Darker color on button hover */
+}
+
+#x1,
+#x3 {
+    -fx-font-size: 21.0; /* Font size for labels */
+}
+
+#customerId,
+#atmPin,
+#cardNumber,
+#balance {
+    -fx-pref-height: 40.0; /* Preferred height for text fields */
+    -fx-pref-width: 357.0; /* Preferred width for text fields */
+}
+
+#accountType,
+#accountStatus {
+    -fx-pref-height: 40.0; /* Preferred height for combo boxes */
+    -fx-pref-width: 357.0; /* Preferred width for combo boxes */
+}

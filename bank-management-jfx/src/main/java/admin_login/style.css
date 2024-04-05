@@ -1,0 +1,59 @@
+/* style.css */
+
+#AnchorPane {
+    -fx-background-color: #f8f4ec; /* Background color for the entire AnchorPane */
+}
+
+.rectangle {
+    -fx-fill: #d63484; /* Fill color for the rectangles */
+    -fx-stroke: black; /* Stroke color for the rectangles */
+    -fx-stroke-type: inside; /* Stroke type for the rectangles */
+}
+
+#x1 {
+    -fx-font-size: 35.0; /* Font size for the "Welcome To" label */
+    -fx-font-weight: bold; /* Bold font for the "Welcome To" label */
+}
+.text-field {
+    -fx-prompt-text-fill: #808080; /* Prompt text color for text fields */
+    -fx-background-color: #ffffff; /* Default background color for text fields */
+    -fx-border-radius: 20; /* Rounded corners for text field borders */
+    -fx-border-color: #d63484; /* Default border color for text fields */
+    -fx-background-radius: 20;
+}
+.text-field:hover {
+    -fx-background-color: #eaeaea; /* Background color for text fields on hover */
+    -fx-border-color: #5c4450; /* Border color for text fields on hover */
+}
+#x2 {
+    -fx-font-size: 25.0; /* Font size for labels */
+}
+
+#x3 {
+    -fx-font-size: 20.0; /* Font size for the "Login Admin" button */
+    -fx-font-weight: bold; /* Bold font for the "Login Admin" button */
+}
+
+#email_Id,
+#password {
+    -fx-opacity: 0.82; /* Opacity for text fields */
+    -fx-background-radius: 20; /* Rounded corners for text fields */
+    -fx-border-radius: 20; /* Rounded corners for text field borders */
+    -fx-prompt-text-fill: #9c9c9c; /* Prompt text color for text fields */
+}
+
+#loginAdmin,
+#forgotPassword,
+#back {
+    -fx-background-radius: 20; /* Rounded corners for buttons */
+    -fx-border-radius: 20; /* Rounded corners for button borders */
+    -fx-background-color: #16d919; /* Default background color for buttons */
+    -fx-border-color: #141414; /* Default border color for buttons */
+}
+
+#loginAdmin:hover,
+#forgotPassword:hover,
+#back:hover {
+    -fx-background-color: #141414; /* Darker color on button hover */
+    -fx-border-color: #000000; /* Darker border color on button hover */
+}

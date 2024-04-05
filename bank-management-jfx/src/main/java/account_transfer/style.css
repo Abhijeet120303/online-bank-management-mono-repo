@@ -1,0 +1,66 @@
+/* style.css */
+
+#AnchorPane {
+    -fx-background-color: #f8f4ec; /* Background color for the entire AnchorPane */
+}
+
+.button {
+    -fx-background-radius: 20; /* Rounded corners for buttons */
+    -fx-background-color: #16d919; /* Default background color for buttons */
+    -fx-border-color: #141414; /* Default border color for buttons */
+    -fx-border-radius: 10;
+}
+
+.button:hover {
+    -fx-background-color: #131011; /* Darker color on button hover */
+}
+
+.text-field {
+    -fx-prompt-text-fill: #808080; /* Prompt text color for text fields */
+    -fx-background-color: #ffffff; /* Default background color for text fields */
+    -fx-border-color: #d63484; /* Default border color for text fields */
+    -fx-border-radius: 10; /* Rounded corners for text fields */
+}
+
+.text-field:hover {
+    -fx-background-color: #eaeaea; /* Background color for text fields on hover */
+    -fx-border-color: #5c4450; /* Border color for text fields on hover */
+}
+
+#accountTransfer {
+    -fx-background-radius: 10; /* Rounded corners for the Account Transfer button */
+    -fx-background-color: #16d919; /* Default background color for the Account Transfer button */
+    -fx-border-color: #141414; /* Default border color for the Account Transfer button */
+}
+
+#accountTransfer:hover {
+    -fx-background-color: #5c4450; /* Darker color on button hover for the Account Transfer button */
+}
+
+#back {
+    -fx-background-radius: 10; /* Rounded corners for the Back button */
+    -fx-border-color: #f0112b; /* Default border color for the Back button */
+    -fx-background-color: #e6f7ed; /* Default background color for the Back button */
+}
+
+#back:hover {
+    -fx-background-color: #402B3A; /* Hover effect for the Back button */
+}
+
+#messageLabel {
+    -fx-text-fill: #ff0000; /* Text color for messages */
+    -fx-font-size: 18px; /* Font size for messages */
+}
+
+#separator {
+    -fx-background-color: #d63484; /* Color for separator line */
+}
+
+#toAccountNumber,
+#amount,
+#pin,
+#fromAccountNumber {
+    -fx-opacity: 0.82; /* Opacity for text fields */
+    -fx-pref-height: 54.0; /* Preferred height for text fields */
+    -fx-pref-width: 411.0; /* Preferred width for text fields */
+}

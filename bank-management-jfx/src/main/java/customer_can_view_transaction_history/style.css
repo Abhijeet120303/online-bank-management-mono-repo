@@ -1,0 +1,61 @@
+/* Apply styles to text fields */
+.text-field {
+    -fx-prompt-text-fill: derive(-fx-control-inner-background, -30%);
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 5;
+    -fx-border-color: #000000;
+}
+.text-field {
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-border-color: #2c2727; /* Border color */
+}
+
+.text-field:hover {
+    -fx-background-color: #b4d6e9; /* Hover background color */
+}
+
+/* Apply styles to buttons */
+.button {
+    -fx-background-color: #16d919;
+    -fx-border-color: #000000;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-text-fill: #0d0c0c;
+}
+
+.button:hover {
+    -fx-background-color: #14b716; /* Darker color on hover */
+}
+
+/* Apply styles to labels */
+/* .label {
+    -fx-font-family: "System Bold";
+    -fx-font-size: 20;
+} */
+
+/* Apply styles to TableView and its columns */
+#transactionTableView {
+    -fx-table-cell-border-color: transparent;
+}
+
+#transactionIdColumn, #customerIdColumn, #cardNumberColumn, #transactionAmountColumn, #transactionTypeColumn, #dateAndTimeColumn {
+    -fx-alignment: CENTER;
+}
+
+/* Apply styles to other elements as needed */
+#searchByCustomerId {
+    -fx-prompt-text-fill: derive(-fx-control-inner-background, -30%);
+}
+
+/* Apply styles to the reset and fetch buttons */
+#reset, #fetch {
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: #000000;
+    -fx-text-fill: #ffffff;
+}
+
+#reset:hover, #fetch:hover {
+    -fx-background-color: #14b716; /* Darker color on hover */
+}

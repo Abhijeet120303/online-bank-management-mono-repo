@@ -1,0 +1,24 @@
+.text-field {
+    -fx-prompt-text-fill: derive(-fx-control-inner-background, -30%);
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 5;
+    -fx-border-color: #000000;
+    -fx-border-radius: 5;
+}
+
+.text-field:hover {
+    -fx-background-color: #5fe9f5; /* Lighter color on hover */
+}
+
+/* Apply styles to buttons */
+.button {
+    -fx-background-color: #16d919;
+    -fx-border-color: #000000;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-text-fill: #2c0101;
+}
+
+.button:hover {
+    -fx-background-color: #ec0dda; /* Darker color on hover */
+}

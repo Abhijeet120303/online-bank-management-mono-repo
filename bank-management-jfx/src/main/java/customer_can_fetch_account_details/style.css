@@ -1,0 +1,27 @@
+/* Apply styles to text fields */
+.text-field {
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-border-color: #2c2727; /* Border color */
+}
+
+.text-field:hover {
+    -fx-background-color: #b4d6e9; /* Hover background color */
+}
+
+/* Apply styles to buttons */
+.button {
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-border-color: #2c2727; /* Border color */
+}
+
+.button:hover {
+    -fx-background-color: #e6f7ed; /* Hover background color */
+}
+
+/* Apply styles to labels if needed */
+.label {
+    -fx-font-family: "Arial Bold";
+    -fx-font-size: 20;
+}

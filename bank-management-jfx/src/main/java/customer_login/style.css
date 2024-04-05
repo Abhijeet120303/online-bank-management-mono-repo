@@ -1,0 +1,59 @@
+/* Apply styles to text fields */
+.text-field {
+    -fx-prompt-text-fill: derive(-fx-control-inner-background, -30%);
+    -fx-background-color: #dadfdf;
+    -fx-background-radius: 30;
+    -fx-border-color: #000000;
+    -fx-border-radius: 30;
+}
+
+.text-field:hover {
+    -fx-background-color: #81d3df; /* Lighter color on hover */
+}
+
+/* Apply styles to buttons */
+.button {
+    -fx-background-color: #d63484;
+    -fx-border-color: #000000;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    /* -fx-text-fill: #090707; */
+}
+
+.button:hover {
+    -fx-background-color: #b52b66; /* Darker color on hover */
+}
+
+/* Apply styles to separator */
+/* .separator {
+    -fx-background-color: #000000;
+} */
+
+/* Apply styles to labels */
+/* .label {
+    -fx-font-family: "System Bold";
+    -fx-font-size: 20;
+} */
+
+/* Apply styles to other elements as needed */
+#AnchorPane {
+    -fx-background-color: #f8f4ec;
+}
+
+#login, #back {
+    -fx-min-width: 120;
+}
+
+#password {
+    -fx-background-radius: 30;
+    -fx-border-color: #000000;
+    -fx-border-radius: 30;
+}
+
+#email {
+    -fx-background-radius: 30;
+    -fx-border-color: #000000;
+    -fx-border-radius: 30;
+}
+
+/* Add more styles if needed */
